@@ -1,0 +1,135 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#header{
+	background-image: url(/assets/wall.jpg);
+	background-size: 100%;
+	font: 400 60px/1.2 'Rancho', Georgia, serif;
+	font-weight: bold;
+	color: #FF9933;
+	text-align: center;
+	padding: 1px;
+}
+
+nav {
+	display: table;	
+	width: 100%;
+	margin: 5px auto;
+	border-collapse: collapse;
+	border: none;
+}
+
+nav ul {
+	display: table-row;	
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: table-cell;
+	margin: 0;	
+	width: 20%;
+}
+
+nav ul li a {
+	font: 400 15px/1.6 'Nixie One', Georgia, serif;
+	font-weight: bold;	
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 8px 0;
+	background: #777976; /* Old browsers */
+	background: -moz-linear-gradient(top, #A7B3B3 0%, #777976 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A7B3B3), color-stop(100%,#777976)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #A7B3B3 0%,#777976 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #A7B3B3 0%,#777976 100%); /* Opera 11.10+ */
+	background: linear-gradient(to bottom, #A7B3B3 0%,#777976 100%); /* W3C, IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A7B3B3', endColorstr='#777976',GradientType=0 ); /* IE6-9 */
+}
+
+nav ul li a,
+
+nav ul li a:focus,
+
+nav ul li a:visited,
+
+nav ul li a:hover,
+
+nav ul li a:active {
+
+  color: #000;
+
+  text-decoration: none; }
+
+nav ul li a:hover,
+
+nav ul li a:active {
+
+  background: #777976; /* Old browsers */
+
+  background: -moz-linear-gradient(top, #D1E0E0 0%, #777976 100%); /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D1E0E0), color-stop(100%,#777976)); /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #D1E0E0 0%,#777976 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #D1E0E0 0%,#777976 100%); /* Opera 11.10+ */
+
+  background: linear-gradient(to bottom, #D1E0E0 0%,#777976 100%); /* W3C, IE10+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1E0E0', endColorstr='#777976',GradientType=0 ); /* IE6-9 */
+
+}
+
+nav ul li:first-child a {
+
+  border-top-left-radius: 8px;
+
+  border-bottom-left-radius: 8px; }
+
+nav ul li:last-child a {
+
+  border-top-right-radius: 8px;
+
+  border-bottom-right-radius: 8px; }
+#section {
+	float: left;
+	padding: 10px;
+	width: 100%;
+	max-width: 1000px;
+}
+
+h2 {
+	font: 400 40px/1.6 'Rancho', Georgia, serif;
+	font-weight: bold;
+}
+
+p {
+	font: 400 15px/1.6 'Ledger', Garamond, Georgia, serif;
+}
+
+#footer {
+	font: 400 15px/1.6 'Nixie One', Georgia, serif;	
+	font-weight: bold;
+	background-color: #A1A9A9;
+	font-size: 70%;
+	color: Black;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+
+}
+#footer a {
+	color: Black;
+}
+
